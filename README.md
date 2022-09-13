@@ -1,41 +1,42 @@
 <div align="center">
 
-  <h1>React Template</h1>
+  <img src="public/react.svg" alt="logo" width="200" height="auto" />
+  <h1>React Template Demo</h1>
 
   <p>
-    A simple React template
+    A simple demo for React template
   </p>
 
 <!-- Badges -->
 <p>
-  <a href="https://github.com/DuckyMomo20012/react-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/DuckyMomo20012/react-template" alt="contributors" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/DuckyMomo20012/react-template-demo" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/DuckyMomo20012/react-template" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/DuckyMomo20012/react-template-demo" alt="last update" />
   </a>
-  <a href="https://github.com/DuckyMomo20012/react-template/network/members">
-    <img src="https://img.shields.io/github/forks/DuckyMomo20012/react-template" alt="forks" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/network/members">
+    <img src="https://img.shields.io/github/forks/DuckyMomo20012/react-template-demo" alt="forks" />
   </a>
-  <a href="https://github.com/DuckyMomo20012/react-template/stargazers">
-    <img src="https://img.shields.io/github/stars/DuckyMomo20012/react-template" alt="stars" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/stargazers">
+    <img src="https://img.shields.io/github/stars/DuckyMomo20012/react-template-demo" alt="stars" />
   </a>
-  <a href="https://github.com/DuckyMomo20012/react-template/issues/">
-    <img src="https://img.shields.io/github/issues/DuckyMomo20012/react-template" alt="open issues" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/issues/">
+    <img src="https://img.shields.io/github/issues/DuckyMomo20012/react-template-demo" alt="open issues" />
   </a>
-  <a href="https://github.com/DuckyMomo20012/react-template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/DuckyMomo20012/react-template.svg" alt="license" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/DuckyMomo20012/react-template-demo.svg" alt="license" />
   </a>
 </p>
 
 <h4>
-    <a href="https://github.com/DuckyMomo20012/react-template/">View Demo</a>
+    <a href="https://github.com/DuckyMomo20012/react-template-demo/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/DuckyMomo20012/react-template">Documentation</a>
+    <a href="https://github.com/DuckyMomo20012/react-template-demo">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/DuckyMomo20012/react-template/issues/">Report Bug</a>
+    <a href="https://github.com/DuckyMomo20012/react-template-demo/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/DuckyMomo20012/react-template/issues/">Request Feature</a>
+    <a href="https://github.com/DuckyMomo20012/react-template-demo/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -74,7 +75,10 @@
 ### :camera: Screenshots
 
 <div align="center">
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <p>Light mode</p>
+  <img src="https://user-images.githubusercontent.com/64480713/189951143-e4bf6d30-36ea-4a89-8a49-d527c1d95655.png" alt="screenshot" />
+  <p>Dark mode</p>
+  <img src="https://user-images.githubusercontent.com/64480713/189951630-968e258d-a03f-43db-ad0a-49851295a69e.png" alt="screenshot_dark_mode" />
 </div>
 
 <!-- TechStack -->
@@ -91,41 +95,10 @@
     <li><a href="https://react-query.tanstack.com/">React Query</a></li>
     <li><a href="https://windicss.org/">WindiCSS</a></li>
     <li><a href="https://mantine.dev/">Mantine</a></li>
-    <li><a href="https://storybook.js.org/">Storybook</a></li>
     <li><a href="https://eslint.org/">ESLint</a></li>
     <li><a href="https://prettier.io/">Prettier</a></li>
     <li><a href="https://vitejs.dev/">Vite</a></li>
     <li><a href="https://iconify.design/">Iconify</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>DevOps</summary>
-  <ul>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://circleci.com/">CircleCLI</a></li>
   </ul>
 </details>
 
@@ -141,33 +114,9 @@
 
 ### :art: Color Reference
 
-| Color           | Hex                                                              |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color   | ![#222831](https://placehold.jp/222831/222831/10x10.png) #222831 |
-| Secondary Color | ![#393E46](https://placehold.jp/393E46/393E46/10x10.png) #393E46 |
-| Accent Color    | ![#00ADB5](https://placehold.jp/00ADB5/00ADB5/10x10.png) #00ADB5 |
-| Text Color      | ![#EEEEEE](https://placehold.jp/EEEEEE/EEEEEE/10x10.png) #EEEEEE |
-
-<!-- Env Variables -->
-
-### :key: Environment Variables
-
-To run this project, you will need to add the following environment variables to
-your `.env` file:
-
-- **App configs:**
-
-  `VITE_TEST_VAR`: Description of this environment variable.
-
-E.g:
-
-```
-# .env
-VITE_TEST_VAR="my secret key"
-```
-
-You can also check out the file `.env.example` to see all required environment
-variables.
+| Color         | Hex                                                              |
+| ------------- | ---------------------------------------------------------------- |
+| Primary Color | ![#2563EB](https://placehold.jp/2563EB/2563EB/10x10.png) #2563EB |
 
 <!-- Getting Started -->
 
@@ -190,13 +139,13 @@ npm install --global yarn
 Clone the project:
 
 ```bash
-git clone https://github.com/DuckyMomo20012/react-template.git
+git clone https://github.com/DuckyMomo20012/react-template-demo.git
 ```
 
 Go to the project directory:
 
 ```bash
-cd react-template
+cd react-template-demo
 ```
 
 Install dependencies:
@@ -211,26 +160,6 @@ Start the server:
 yarn dev
 ```
 
-<!-- Running Tests -->
-
-### :test_tube: Running Tests
-
-To run tests, run the following command:
-
-```bash
-yarn test
-```
-
-<!-- Deployment -->
-
-### :triangular_flag_on_post: Deployment
-
-To deploy this project run:
-
-```bash
-yarn deploy
-```
-
 <!-- Usage -->
 
 ## :eyes: Usage
@@ -240,7 +169,7 @@ Show additional screenshots, code samples, demos, or links to other resources.
 
 ```jsx
 // foo.jsx
-import Component from 'react-template';
+import Component from 'react-template-demo';
 
 function App() {
   return <Component />;
@@ -258,8 +187,8 @@ function App() {
 
 ## :wave: Contributing
 
-<a href="https://github.com/DuckyMomo20012/react-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DuckyMomo20012/react-template" />
+<a href="https://github.com/DuckyMomo20012/react-template-demo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DuckyMomo20012/react-template-demo" />
 </a>
 
 Contributions are always welcome!
@@ -268,7 +197,7 @@ Contributions are always welcome!
 
 ### :scroll: Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/DuckyMomo20012/react-template/blob/main/CODE_OF_CONDUCT.md).
+Please read the [Code of Conduct](https://github.com/DuckyMomo20012/react-template-demo/blob/main/CODE_OF_CONDUCT.md).
 
 <!-- FAQ -->
 
@@ -287,7 +216,7 @@ Please read the [Code of Conduct](https://github.com/DuckyMomo20012/react-templa
 ## :warning: License
 
 Distributed under MIT license. See
-[LICENSE](https://github.com/DuckyMomo20012/react-template/blob/main/LICENSE)
+[LICENSE](https://github.com/DuckyMomo20012/react-template-demo/blob/main/LICENSE)
 for more information.
 
 <!-- Contact -->
@@ -297,7 +226,7 @@ for more information.
 Duong Vinh - [@duckymomo20012](https://twitter.com/duckymomo20012) -
 tienvinh.duong4@gmail.com
 
-Project Link: [https://github.com/DuckyMomo20012/react-template](https://github.com/DuckyMomo20012/react-template).
+Project Link: [https://github.com/DuckyMomo20012/react-template-demo](https://github.com/DuckyMomo20012/react-template-demo).
 
 <!-- Acknowledgments -->
 
