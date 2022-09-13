@@ -5,10 +5,12 @@ import {
   Group,
   Tooltip,
   Text,
+  Button,
   useMantineColorScheme,
   Space,
   Image,
   Box,
+  Divider,
 } from '@mantine/core';
 import { Link } from 'react-router-dom';
 
@@ -21,7 +23,13 @@ const Header = () => {
   return (
     <>
       <Group position="flex-start">
-        <Group spacing="xs">
+        <Anchor
+          underline={false}
+          spacing="xs"
+          component={Link}
+          to="/"
+          className="flex items-center gap-2"
+        >
           <Box component="span">
             <Image
               src={logo}
@@ -31,10 +39,13 @@ const Header = () => {
             />
           </Box>
           <Text align="center">React Template</Text>
-        </Group>
+        </Anchor>
         <Space w="xl" />
         <Anchor underline={false} component={Link} to="/">
           Home
+        </Anchor>
+        <Anchor underline={false} component={Link} to="/contact">
+          Contact
         </Anchor>
       </Group>
       <Group>
@@ -61,6 +72,13 @@ const Header = () => {
             />
           </ActionIcon>
         </Tooltip>
+        <Divider orientation="vertical" className="my-1" />
+        <Button component={Link} to="/auth/login" variant="light">
+          Login
+        </Button>
+        <Button component={Link} to="/auth/register" variant="outline">
+          Register
+        </Button>
       </Group>
     </>
   );
