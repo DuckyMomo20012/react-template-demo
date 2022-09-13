@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "types": [],
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"],
+      "@/constants/*": ["constants/*"],
+      "@/context/*": ["context/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/store/*": ["store/*"],
+      "@/utils/*": ["utils/*"],
+      "@/routes/*": ["routes/*"],
+      "@/pages/*": ["pages/*"],
+      "@/components/*": ["components/*"],
+      "@/elements/*": ["components/elements/*"],
+      "@/layouts/*": ["components/layouts/*"],
+      "@/modules/*": ["components/modules/*"],
+      "@/libs/*": ["libs/*"]
+    }
+  },
+  "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"]
+}
