@@ -59,7 +59,6 @@ const Login = () => {
   return (
     <Container my={40} size={420}>
       <Modal
-        centered
         onClose={() => {
           setOpened(false);
           if (isLoggedIn) navigate('/');
@@ -93,8 +92,8 @@ const Login = () => {
         </Anchor>
       </Text>
       <Text align="center" color="dimmed" mt={5} size="sm">
-        <Code color="blue">username:</Code> Hello,{' '}
-        <Code color="blue">password:</Code> World
+        <Code color="blue">email</Code>: example@gmail.com,{' '}
+        <Code color="blue">password</Code>: 1234
       </Text>
 
       <Paper mt={30} p={30} radius="md" shadow="md" withBorder>
