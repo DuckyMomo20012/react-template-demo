@@ -1,42 +1,44 @@
 <div align="center">
 
-  <img src="public/react.svg" alt="logo" width="200" height="auto" />
-  <h1>React Template</h1>
+  <img src="public/react.svg" alt="logo" width="50" height="auto" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi.svg" alt="logo" height="50" />
+
+  <h1>React Template Demo</h1>
 
   <p>
-    A simple React template
+    A simple demo for React template using Poké API
   </p>
 
 <!-- Badges -->
 <p>
-  <a href="https://github.com/DuckyMomo20012/react-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/DuckyMomo20012/react-template" alt="contributors" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/DuckyMomo20012/react-template-demo" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/DuckyMomo20012/react-template" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/DuckyMomo20012/react-template-demo" alt="last update" />
   </a>
-  <a href="https://github.com/DuckyMomo20012/react-template/network/members">
-    <img src="https://img.shields.io/github/forks/DuckyMomo20012/react-template" alt="forks" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/network/members">
+    <img src="https://img.shields.io/github/forks/DuckyMomo20012/react-template-demo" alt="forks" />
   </a>
-  <a href="https://github.com/DuckyMomo20012/react-template/stargazers">
-    <img src="https://img.shields.io/github/stars/DuckyMomo20012/react-template" alt="stars" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/stargazers">
+    <img src="https://img.shields.io/github/stars/DuckyMomo20012/react-template-demo" alt="stars" />
   </a>
-  <a href="https://github.com/DuckyMomo20012/react-template/issues/">
-    <img src="https://img.shields.io/github/issues/DuckyMomo20012/react-template" alt="open issues" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/issues/">
+    <img src="https://img.shields.io/github/issues/DuckyMomo20012/react-template-demo" alt="open issues" />
   </a>
-  <a href="https://github.com/DuckyMomo20012/react-template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/DuckyMomo20012/react-template.svg" alt="license" />
+  <a href="https://github.com/DuckyMomo20012/react-template-demo/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/DuckyMomo20012/react-template-demo.svg" alt="license" />
   </a>
 </p>
 
 <h4>
-    <a href="https://github.com/DuckyMomo20012/react-template/">View Demo</a>
+    <a href="https://github.com/DuckyMomo20012/react-template-demo/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/DuckyMomo20012/react-template">Documentation</a>
+    <a href="https://github.com/DuckyMomo20012/react-template-demo">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/DuckyMomo20012/react-template/issues/">Report Bug</a>
+    <a href="https://github.com/DuckyMomo20012/react-template-demo/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/DuckyMomo20012/react-template/issues/">Request Feature</a>
+    <a href="https://github.com/DuckyMomo20012/react-template-demo/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -51,12 +53,9 @@
   - [Tech Stack](#space_invader-tech-stack)
   - [Features](#dart-features)
   - [Color Reference](#art-color-reference)
-  - [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
   - [Prerequisites](#bangbang-prerequisites)
   - [Run Locally](#running-run-locally)
-  - [Running Tests](#test_tube-running-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [Usage](#eyes-usage)
 - [Roadmap](#compass-roadmap)
 - [Contributing](#wave-contributing)
@@ -76,9 +75,9 @@
 
 <div align="center">
   <p>Light mode</p>
-  <img src="https://user-images.githubusercontent.com/64480713/189928556-bbc437aa-b75b-48ab-b61c-f073f536a881.png" alt="screenshot" />
+  <img src="https://user-images.githubusercontent.com/64480713/190435038-f3799fbd-4ce8-4d48-b516-7bbfdbecaf35.png" alt="screenshot" />
   <p>Dark mode</p>
-  <img src="https://user-images.githubusercontent.com/64480713/189929229-bf5f94e4-7b39-4909-abef-60c8bd95fcf1.png" alt="screenshot_dark_mode" />
+  <img src="https://user-images.githubusercontent.com/64480713/190435012-b885a542-1fce-4fca-ae93-1f3f93b152d4.png" alt="screenshot_dark_mode" />
 </div>
 
 <!-- TechStack -->
@@ -92,7 +91,8 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
     <li><a href="https://reactrouter.com/">React Router</a></li>
     <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a></li>
-    <li><a href="https://react-query.tanstack.com/">React Query</a></li>
+    <li><a href="https://tanstack.com/query/v4">TanStack Query</a></li>
+    <li><a href="https://react-hook-form.com/">React Hook Form</a></li>
     <li><a href="https://windicss.org/">WindiCSS</a></li>
     <li><a href="https://mantine.dev/">Mantine</a></li>
     <li><a href="https://eslint.org/">ESLint</a></li>
@@ -102,75 +102,50 @@
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>DevOps</summary>
-  <ul>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://circleci.com/">CircleCLI</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### :dart: Features
 
-- Feature 1.
-- Feature 2.
-- Feature 3.
+- Demo `React Router` with routes:
+
+  - `/` - Home page.
+  - `/contact` - Contact page.
+  - `/auth/login` - Login page.
+  - `/auth/register` - Register page.
+
+- Demo `Redux Toolkit` with Pokemon index "counter":
+
+  - `⏫` - Increment index.
+  - `⏬` - Decrement index.
+  - `🔄` - Reset index.
+
+- Demo `TanStack Query` with [Poké API](https://pokeapi.co/):
+
+  - Prefetch data (10 Pokemon per page).
+  - Search Pokemon.
+
+- Demo `React Hook Form` with a fake login form.
+
+- Demo `React` with two custom hooks:
+
+  - `useDebounce` - Debounce user input in search bar.
+  - `useImageLoad` - Watch image loading state and detect `src` changes.
+
+- Demo pre-commit hooks with `husky` and `lint-staged`. And lint commit messages
+  with `commitlint`.
+
+- Override `Mantine` theme (fonts, colors,...) with `WindiCSS`.
+- UI components using `Mantine`.
+- Icons using `Iconify`.
+- Styling using `WindiCSS`.
 
 <!-- Color Reference -->
 
 ### :art: Color Reference
 
-| Color           | Hex                                                              |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color   | ![#222831](https://placehold.jp/222831/222831/10x10.png) #222831 |
-| Secondary Color | ![#393E46](https://placehold.jp/393E46/393E46/10x10.png) #393E46 |
-| Accent Color    | ![#00ADB5](https://placehold.jp/00ADB5/00ADB5/10x10.png) #00ADB5 |
-| Text Color      | ![#EEEEEE](https://placehold.jp/EEEEEE/EEEEEE/10x10.png) #EEEEEE |
-
-<!-- Env Variables -->
-
-### :key: Environment Variables
-
-To run this project, you will need to add the following environment variables to
-your `.env` file:
-
-- **App configs:**
-
-  `VITE_TEST_VAR`: Description of this environment variable.
-
-E.g:
-
-```
-# .env
-VITE_TEST_VAR="my secret key"
-```
-
-You can also check out the file `.env.example` to see all required environment
-variables.
+| Color         | Hex                                                              |
+| ------------- | ---------------------------------------------------------------- |
+| Primary Color | ![#2563EB](https://placehold.jp/2563EB/2563EB/10x10.png) #2563EB |
 
 <!-- Getting Started -->
 
@@ -193,13 +168,13 @@ npm install --global yarn
 Clone the project:
 
 ```bash
-git clone https://github.com/DuckyMomo20012/react-template.git
+git clone https://github.com/DuckyMomo20012/react-template-demo.git
 ```
 
 Go to the project directory:
 
 ```bash
-cd react-template
+cd react-template-demo
 ```
 
 Install dependencies:
@@ -214,55 +189,94 @@ Start the server:
 yarn dev
 ```
 
-<!-- Running Tests -->
-
-### :test_tube: Running Tests
-
-To run tests, run the following command:
-
-```bash
-yarn test
-```
-
-<!-- Deployment -->
-
-### :triangular_flag_on_post: Deployment
-
-To deploy this project run:
-
-```bash
-yarn deploy
-```
-
 <!-- Usage -->
 
 ## :eyes: Usage
 
-Use this space to tell a little more about your project and how it can be used.
-Show additional screenshots, code samples, demos, or links to other resources.
+The [Poké API](https://pokeapi.co/) will provide `1154` pokemon.
 
-```jsx
-// foo.jsx
-import Component from 'react-template';
+Using buttons to increment, decrement, and reset the Pokemon index "counter",
+start from `0`:
 
-function App() {
-  return <Component />;
-}
+- `⏫` - Increment index.
+- `⏬` - Decrement index.
+- `🔄` - Reset index.
+
+When searching for a Pokemon, the counter will **skip to the id (NO. )** of the
+Pokemon, which may exceed the total number of Pokemon. When exceeding:
+
+- `⏫` - Reset counter (skip to 0).
+- `⏬` - Skip to Pokemon with index 1153.
+
+---
+
+Login page:
+
+- You can log in with this fake account:
+
+  - email: `example@gmail.com`.
+  - password: `1234`.
+
+- It will just show a message when you log in successfully, and navigate back to
+  Home page.
+
+Register page:
+
+- It will do nothing when you submit the form.
+
+---
+
+Folder architecture:
+
+_From my [react-template](https://github.com/DuckyMomo20012/react-template)
+Wiki,
+[Folder
+Architecture](https://github.com/DuckyMomo20012/react-template/wiki/Folder-Architecture)
+page_:
+
 ```
+.
+├── components
+│   ├── elements
+│   ├── layouts
+│   └── modules
+├── constants
+├── context
+├── hooks
+├── pages
+│   └── api
+├── routes
+├── store
+│   └── slice
+└── main.jsx
+```
+
+- `elements`: Basic building blocks.
+- `layouts`: Wrap your pages with the default layout.
+- `modules`: Modules are built from multiple `elements`.
+- `constants`: Global constants.
+- `context`: React Context providers.
+- `hooks`: Custom hooks.
+- `pages`: Your page routes (adopt from NextJS folder architecture).
+- `pages/api`: Your APIs (adopt from NextJS folder architecture).
+- `routes`: Global route for react-router.
+- `store`: Store your Redux store.
+- `store/slice`: Store your Redux slices.
 
 <!-- Roadmap -->
 
 ## :compass: Roadmap
 
-- [x] Todo 1.
-- [ ] Todo 2.
+- [ ] TypeScript support.
+- [ ] Show more Pokemon details.
+- [ ] Infinite scroll.
 
 <!-- Contributing -->
 
 ## :wave: Contributing
 
-<a href="https://github.com/DuckyMomo20012/react-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DuckyMomo20012/react-template" />
+<a href="https://github.com/DuckyMomo20012/react-template-demo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DuckyMomo20012/react-template-demo" />
 </a>
 
 Contributions are always welcome!
@@ -271,26 +285,27 @@ Contributions are always welcome!
 
 ### :scroll: Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/DuckyMomo20012/react-template/blob/main/CODE_OF_CONDUCT.md).
+Please read the [Code of Conduct](https://github.com/DuckyMomo20012/react-template-demo/blob/main/CODE_OF_CONDUCT.md).
 
 <!-- FAQ -->
 
 ## :grey_question: FAQ
 
-- Question 1
+- Is this project still maintained?
 
-  - Answer 1.
+  - Yes, but I will only update UI, docs, or dependencies. New features won't be
+    added frequently.
 
-- Question 2
+- Is this project fully typed?
 
-  - Answer 2.
+  - No, but I will add TypeScript support in the future.
 
 <!-- License -->
 
 ## :warning: License
 
 Distributed under MIT license. See
-[LICENSE](https://github.com/DuckyMomo20012/react-template/blob/main/LICENSE)
+[LICENSE](https://github.com/DuckyMomo20012/react-template-demo/blob/main/LICENSE)
 for more information.
 
 <!-- Contact -->
@@ -300,7 +315,7 @@ for more information.
 Duong Vinh - [@duckymomo20012](https://twitter.com/duckymomo20012) -
 tienvinh.duong4@gmail.com
 
-Project Link: [https://github.com/DuckyMomo20012/react-template](https://github.com/DuckyMomo20012/react-template).
+Project Link: [https://github.com/DuckyMomo20012/react-template-demo](https://github.com/DuckyMomo20012/react-template-demo).
 
 <!-- Acknowledgments -->
 
