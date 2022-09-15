@@ -57,66 +57,73 @@ const HomePage = () => {
   const pokemonInfo = searchResult || pokemonData?.at(count % LIMIT);
   return (
     <Stack align="center">
-      <Title>Pokedex</Title>
-      <PokemonSearch
-        setIsSearching={setIsSearching}
-        setSearchResult={setSearchResult}
-      />
-      <Group noWrap>
-        <ActionIcon
-          color="blue"
-          variant="light"
-          size={56}
-          onClick={() => {
-            if (count > 0 && count < MAX_POKEMON) {
-              dispatch(decrement());
-            } else {
-              dispatch(reset());
-            }
-            setSearchResult(null);
-          }}
-          disabled={isSearching}
-        >
-          <Icon icon="fluent-emoji-flat:fast-down-button" height={32} />
-        </ActionIcon>
-        {isFetching || isSearching || !pokemonInfo ? (
-          <PokemonCard.Skeleton />
-        ) : (
-          <PokemonCard pokemonInfo={pokemonInfo} />
-        )}
-        <ActionIcon
-          color="blue"
-          variant="light"
-          size={56}
-          onClick={() => {
-            if (count < MAX_POKEMON - 1) {
-              dispatch(increment());
-            } else {
-              dispatch(skipTo(MAX_POKEMON - 1));
-            }
-            setSearchResult(null);
-          }}
-          disabled={isSearching}
-        >
-          <Icon icon="fluent-emoji-flat:fast-up-button" height={32} />
-        </ActionIcon>
-      </Group>
-
-      <ActionIcon
-        color="blue"
-        variant="light"
-        size={40}
-        onClick={() => {
-          dispatch(reset());
-          setSearchResult(null);
-        }}
-        disabled={isSearching}
-      >
-        <Icon
-          icon="fluent-emoji-flat:counterclockwise-arrows-button"
-          height={26}
+      <Stack align="center" className="w-2/3">
+        <Title align="center" className="w-full truncate">
+          Pokedex
+        </Title>
+        <PokemonSearch
+          setIsSearching={setIsSearching}
+          setSearchResult={setSearchResult}
         />
-      </ActionIcon>
+        <Stack align="center" className="w-full">
+          {isFetching || isSearching || !pokemonInfo ? (
+            <PokemonCard.Skeleton />
+          ) : (
+            <PokemonCard pokemonInfo={pokemonInfo} />
+          )}
+          <Group position="center">
+            <ActionIcon
+              color="blue"
+              variant="light"
+              size={56}
+              onClick={() => {
+                if (count > 0 && count < MAX_POKEMON) {
+                  dispatch(decrement());
+                } else {
+                  dispatch(skipTo(MAX_POKEMON - 1));
+                }
+                setSearchResult(null);
+              }}
+              disabled={isSearching}
+              className="!sm:order-first !order-1 flex-shrink"
+            >
+              <Icon icon="fluent-emoji-flat:fast-down-button" height={32} />
+            </ActionIcon>
+            <ActionIcon
+              color="blue"
+              variant="light"
+              size={56}
+              onClick={() => {
+                if (count < MAX_POKEMON - 1) {
+                  dispatch(increment());
+                } else {
+                  dispatch(reset());
+                }
+                setSearchResult(null);
+              }}
+              disabled={isSearching}
+            >
+              <Icon icon="fluent-emoji-flat:fast-up-button" height={32} />
+            </ActionIcon>
+          </Group>
+        </Stack>
+
+        <ActionIcon
+          color="blue"
+          variant="light"
+          size={40}
+          onClick={() => {
+            dispatch(reset());
+            setSearchResult(null);
+          }}
+          disabled={isSearching}
+        >
+          <Icon
+            icon="fluent-emoji-flat:counterclockwise-arrows-button"
+            height={26}
+          />
+        </ActionIcon>
+      </Stack>
     </Stack>
   );
 };

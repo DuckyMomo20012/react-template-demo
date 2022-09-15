@@ -1,5 +1,6 @@
 import pluginAnimations from '@windicss/plugin-animations';
 import colors from 'windicss/colors';
+import pluginAspectRatios from 'windicss/plugin/aspect-ratio';
 
 export default {
   alias: {
@@ -23,6 +24,7 @@ export default {
         animationDelaySpeed: 1000,
       },
     }),
+    pluginAspectRatios,
   ],
   shortcuts: {
     // ...
